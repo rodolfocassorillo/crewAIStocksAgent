@@ -136,7 +136,7 @@ crew = Crew(
   verbose = True,
   process = Process.hierarchical,
   full_output = True,
-  share_crew = False,
+  share_crew = True,
   manager_llm = llm,
   max_iter=15
 )
